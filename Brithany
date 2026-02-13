@@ -1,0 +1,77 @@
+// =========================================================
+// CONFIGURACIÓN PARA EL SAN VALENTÍN DE BRITHANY
+// =========================================================
+
+// Basic Information
+const config = {
+    valentineName: "Brithany",
+    pageTitle: "Un mensaje especial para Brithany 🌸",
+
+    // Floating Background Elements
+    floatingEmojis: {
+        hearts: ['✨', '💖', '🌸', '💗', '⭐'],
+        bears: ['🧸', '🐰']
+    },
+
+    // Questions and Buttons
+    questions: {
+        first: {
+            text: "¿Te gusto un poquito, Brithany?",
+            yesBtn: "¡Sí!",
+            noBtn: "No",
+            secretAnswer: "¡Lo sabía! Pero yo no solo te quiero... ¡te amo! ❤️"
+        },
+        second: {
+            text: "¿Y qué tanto me amas?",
+            startText: "¡Así de mucho!",
+            nextBtn: "Siguiente ❤️"
+        },
+        third: {
+            text: "Brithany, ¿quieres ser mi San Valentín...?",
+            yesBtn: "¡Acepto! ✨",
+            noBtn: "Piénsalo bien... 🥺"
+        }
+    },
+
+    // Love Meter Messages
+    loveMessages: {
+        extreme: "¡¡DIOS MÍO!! ¿Tanto así? ¡Me vas a hacer explotar de amor! 🥰🚀",
+        high: "¡Hasta el infinito y más allá! 🌌💝",
+        normal: "¡Un amor fuera de este mundo! 🥰"
+    },
+
+    // Final Celebration
+    celebration: {
+        title: "¡SÍII! Soy la persona más afortunada por tener a Brithany...",
+        message: "Ahora ven por tu abrazo y tu regalo... 🏃‍♂️💨",
+        emojis: "✨🎁💖🌹🍫💋❤️"
+    },
+
+    // Website Colors (Rose Gold Style)
+    colors: {
+        backgroundStart: "#f857a6",
+        backgroundEnd: "#ff5858",
+        buttonBackground: "#d63384",
+        buttonHover: "#e83e8c",
+        textColor: "#ffffff"
+    },
+
+    // Animation Settings
+    animations: {
+        floatDuration: "12s",
+        floatDistance: "60px",
+        bounceSpeed: "0.4s",
+        heartExplosionSize: 1.8
+    },
+
+    // Music Settings
+    music: {
+        enabled: true,
+        autoplay: true,
+        // IMPORTANTE: Sube tu archivo a JukeHost o Cloudinary y pega aquí el link .mp3
+        musicUrl: "TU_LINK_DIRECTO_AQUI.mp3", 
+        startText: "🎵 Dale play a nuestra canción",
+        stopText: "🔇 Pausar",
+        volume: 0.6
+    }
+};
